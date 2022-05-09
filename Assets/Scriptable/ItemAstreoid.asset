@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfd7db67618dd9644aa1d16a0b05ad8a, type: 3}
-  m_Name: Itemball
+  m_Name: ItemAstreoid
   m_EditorClassIdentifier: 
-  itemName: Top
-  itemImage: {fileID: 21300000, guid: 7931262bee02b4179ab843cecd12cb07, type: 3}
-  itemExplanation: Bu Item Sahnede Sphere Olusturur
+  itemName: Item Name
+  itemImage: {fileID: 0}
+  itemExplanation: 
