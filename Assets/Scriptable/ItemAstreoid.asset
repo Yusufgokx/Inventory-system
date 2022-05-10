@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ItemAstreoid
   m_EditorClassIdentifier: 
   itemName: Item Name
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: bc15c6ea9b0124465b164fd3e89c578d, type: 3}
   itemExplanation: 

@@ -15,14 +15,20 @@ public class Slot_Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         explanationCanvas.SetActive(false);
         mainIcon.sprite = itemTable.itemImage;
-        
+
     }
 
-   
-    void Update()
+    public void UseItem()
     {
-        
+        Debug.Log(itemTable.itemName + "Ýsimli Ýtem Kullanýldý");
     }
+
+    public void DeleteItem()
+    {
+        Debug.Log(itemTable.itemName + "Ýsimli Ýtem Silindi");
+        Destroy(gameObject);
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         explanationCanvas.SetActive(true);
@@ -30,6 +36,6 @@ public class Slot_Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        explanationCanvas.SetActive(false); 
+        explanationCanvas.SetActive(false);
     }
 }
